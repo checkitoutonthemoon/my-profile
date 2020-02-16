@@ -1,0 +1,61 @@
+body {
+	background-color: rgb(200, 200, 200);
+	color: #0f1443;
+	font-family: times;
+}
+
+h1, h2, h3 {
+	color: rgb(10, 10, 10);
+	font-family: garamond;
+	font-weight: 100;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #250637;
+	background-color: white;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 650px;
+	margin: 50px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+.white-card {
+	background-color: white;
+	padding: 38px;
+	border-radius: 6px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.btn-purple {
+	background-color: #250637;
+	color: white;
+	padding: 8px 10px;
+	border-radius: 6px;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+#introduction p {
+	margin-bottom: 35px;
+}
